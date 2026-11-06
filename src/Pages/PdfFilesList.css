@@ -1,0 +1,63 @@
+.pdf-list-container {
+  padding: 30px;
+  max-width: 1200px;
+  margin: 0 auto;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.pdf-list-container h1 {
+  color: #1e293b;
+  margin-bottom: 20px;
+}
+
+.list-controls {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  margin-bottom: 20px;
+  flex-wrap: wrap;
+}
+
+.search-input {
+  padding: 8px 12px;
+  width: 300px;
+  border-radius: 6px;
+  border: 1px solid #cbd5e1;
+  outline: none;
+}
+
+.search-input:focus {
+  border-color: #2563eb;
+  box-shadow: 0 0 0 2px rgba(37, 99, 235, 0.1);
+}
+
+.table-wrapper {
+  overflow-x: auto;
+  background: #ffffff;
+  border-radius: 12px;
+  box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1);
+}
+
+.patients-table {
+  width: 100%;
+  border-collapse: collapse;
+  text-align: left;
+}
+
+.patients-table th, .patients-table td {
+  padding: 14px 18px;
+  border-bottom: 1px solid #e2e8f0;
+}
+
+.patients-table th {
+  background-color: #f8fafc;
+  color: #475569;
+  font-weight: 600;
+}
+
+.status-text {
+  text-align: center;
+  color: #64748b;
+  font-size: 16px;
+  margin-top: 40px;
+}

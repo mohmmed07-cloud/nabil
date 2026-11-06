@@ -1,0 +1,9 @@
+.footer {
+  background: linear-gradient(135deg, #0f172a, #1e293b);
+color: #94a3b8;
+  text-align: center;
+  padding: 15px;
+  font-size: 14px;
+  margin-top: 30px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
